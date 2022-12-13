@@ -134,7 +134,8 @@ namespace coreMethod
             {
                 try
                 {
-                    Process.Start(new ProcessStartInfo { FileName = target, UseShellExecute = true });
+                  Console.WriteLine("consider getting gambling help" + " " + target);
+                  Environment.Exit(1);
                 }
 
                 catch (System.ComponentModel.Win32Exception noBrowser)
